@@ -86,6 +86,20 @@
     border-color: rgba(31, 111, 255, 0.18);
   }
 
+.nav .nav-waiver {
+  color: #fff;
+  font-weight: 700;
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.nav .nav-waiver:hover,
+.nav .nav-waiver:focus {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: #fff;
+}
+
 .nav .nav-social {
   color: var(--muted);
   font-weight: 500;
