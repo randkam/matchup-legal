@@ -12,30 +12,40 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <div class="brand">MatchUp</div>
+    <div class="header-inner container">
+      <a class="brand" href="https://matchuptournaments.ca" target="_blank" rel="noopener">
+        <img src="assets/logo.png" alt="MatchUp" class="brand-logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.body.classList.toggle('nav-open')">
+        <span></span><span></span><span></span>
+      </button>
       <nav class="nav">
-        <a href="#terms">Terms of Service</a>
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#tournament-rules">Tournament Rules</a>
-        <a class="nav-waiver" href="#waiver">View Full Liability Waiver</a>
-        <a
-          class="nav-social"
-          href="https://www.instagram.com/matchuptournaments"
-          target="_blank"
-          rel="noopener"
-        >
-          Instagram
-        </a>
-          
-        <a
-          class="nav-social"
-          href="https://www.tiktok.com/@matchuptournaments"
-          target="_blank"
-          rel="noopener"
-        >
-          TikTok
-        </a>
+        <div class="nav-links">
+          <a href="#terms">Terms of Service</a>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#tournament-rules">Tournament Rules</a>
+          <a class="nav-waiver" href="#waiver">Liability Waiver</a>
+        </div>
+        <div class="nav-social-group">
+          <a
+            class="nav-social"
+            href="https://www.instagram.com/matchuptournaments"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+          <a
+            class="nav-social"
+            href="https://www.tiktok.com/@matchuptournaments"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.48 6.3 6.3 0 001.86-4.49V8.74a8.26 8.26 0 004.84 1.56V6.85a4.84 4.84 0 01-1.12-.16z"/></svg>
+            TikTok
+          </a>
+        </div>
       </nav>
     </div>
   </header>
@@ -340,9 +350,17 @@
         <li>Attempt to manipulate tournament results</li>
         <li>Provide false information during registration</li>
         <li>Interfere with the normal operation of the Service</li>
+        <li>Use profane, offensive, discriminatory, or inappropriate language in team names, usernames, or any other user-generated content</li>
       </ul>
       <p>
         MatchUp reserves the right to remove users from tournaments or suspend accounts for violations.
+      </p>
+      <p>
+        Team names or usernames that contain profanity, hate speech, or otherwise violate
+        community standards will be immediately deleted. Teams or users in violation may be
+        disqualified from any active tournament, have their games recorded as forfeits, and
+        have their accounts suspended or permanently banned. Entry fees and deposits will not
+        be refunded in cases of disqualification due to conduct violations.
       </p>
 
       <h3>15. Liability Waiver and Release of Claims</h3>
@@ -603,7 +621,36 @@
         participating in future tournaments or events.
       </p>
 
-      <h3>5. Medical Fitness Disclaimer</h3>
+      <h3>5. Photo and Video Release</h3>
+      <p>
+        MatchUp and its designated photographers, videographers, and media partners may
+        record video, take photographs, and capture other media content at MatchUp tournaments
+        and events.
+      </p>
+      <p>
+        By accepting this Waiver and participating in a MatchUp tournament or event, you grant
+        MatchUp a non-exclusive, royalty-free, worldwide, perpetual license to use, reproduce,
+        distribute, display, and publish any photographs, video recordings, or other media
+        content in which you appear, for any lawful purpose, including but not limited to:
+      </p>
+      <ul>
+        <li>Social media posts and stories (Instagram, TikTok, and other platforms)</li>
+        <li>The MatchUp website and mobile application</li>
+        <li>Promotional and marketing materials</li>
+        <li>Tournament highlight reels, recaps, and event coverage</li>
+        <li>Press and media publications</li>
+      </ul>
+      <p>
+        You waive any right to inspect or approve the finished content before it is published
+        and waive any claims for compensation related to the use of your likeness, image,
+        voice, or appearance in such content.
+      </p>
+      <p>
+        MatchUp will not sell your likeness to unrelated third parties for independent
+        commercial advertising without your separate consent.
+      </p>
+
+      <h3>6. Medical Fitness Disclaimer</h3>
       <p>
         By participating in MatchUp tournaments, users represent and warrant that they are
         physically fit and in good health to participate in sports activities, and that they
@@ -616,14 +663,14 @@
         in any sports activities organized through MatchUp.
       </p>
 
-      <h3>6. Insurance Disclaimer</h3>
+      <h3>7. Insurance Disclaimer</h3>
       <p>
         MatchUp does not provide health, accident, or liability insurance for tournament
         participants. Users are responsible for obtaining their own insurance coverage as
         they see fit.
       </p>
 
-      <h3>7. Contact</h3>
+      <h3>8. Contact</h3>
       <p>If you have questions about this Waiver, please contact:</p>
       <p><strong>MatchUp</strong><br />matchuptournaments@gmail.com</p>
     </section>
@@ -708,6 +755,7 @@
         <li>Generate tournament brackets and schedules</li>
         <li>Verify player eligibility and roster information</li>
         <li>Confirm waiver acceptance and player eligibility for tournaments</li>
+        <li>Publish photos, videos, and media content from tournaments and events</li>
         <li>Send push notifications about tournaments, schedules, and account activity</li>
         <li>Improve the application and user experience</li>
         <li>Prevent fraud and misuse of the platform</li>
@@ -1103,6 +1151,12 @@
         <li>Removal from the tournament</li>
         <li>Restrictions from future MatchUp events</li>
       </ul>
+      <p>
+        Team names that contain profanity, hate speech, or otherwise violate community
+        standards will be immediately deleted. The team may be disqualified from the
+        tournament, games may be recorded as forfeits, and entry fees or deposits will not
+        be refunded.
+      </p>
       <p>MatchUp reserves the right to determine appropriate disciplinary action.</p>
 
       <h3>13. Prize Payouts</h3>
@@ -1169,5 +1223,12 @@
       </p>
     </section>
   </main>
+  <script>
+    document.querySelectorAll('.nav a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
 </body>
 </html>
